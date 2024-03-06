@@ -6,17 +6,13 @@ async function main() {
   try {
     await db.category.createMany({
       data: [
-        { name: "Electronics" },
-        { name: "Books" },
-        { name: "Home & Kitchen" },
-        { name: "Toys & Games" },
-        { name: "Clothing & Accessories" },
-        { name: "Beauty, Health & Personal Care" },
-        { name: "Sports & Outdoors" },
-        { name: "Automotive" },
-        { name: "Baby" },
-        { name: "Handmade" },
-        { name: "Other" },
+        { name: "Music" },
+        { name: "Photography" },
+        { name: "Fitness" },
+        { name: "Accounting" },
+        { name: "Computer Science" },
+        { name: "Filming" },
+        { name: "Engineering" },
       ],
     });
 
